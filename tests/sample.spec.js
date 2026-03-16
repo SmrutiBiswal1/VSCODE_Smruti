@@ -1,7 +1,7 @@
 const {test,expect} = require('@playwright/test')
 
 
-console.log("Hello World")
+console.log("Hello Worl")
 test('My first test', async function({page}){
 
 expect(12).toBe(12)
