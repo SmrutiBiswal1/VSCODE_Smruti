@@ -1,6 +1,8 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
 
+console.log("Hello");
+
 test('has title', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
